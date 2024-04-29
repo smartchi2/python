@@ -14,7 +14,7 @@ for i in range(years):
 		interest = invested * rate
 		bestamount = interest + invested
 		invested = bestamount
-		print(f"years of invesment{index}   {invested:,.2f}")
+		print(f"years of invesmentu{index}   {invested:,.2f}")
 		index += 1
 
 		

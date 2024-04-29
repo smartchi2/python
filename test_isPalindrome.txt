@@ -1,0 +1,13 @@
+from isPalindrome import add
+
+
+def test_add_function():
+	assert isPalindrome(1,5) == 6
+	assert isPalindrome(10, 11) == 21
+
+def test_add_string():
+	assert isPalindrome("malam", "man") == "malam man"
+	assert isPalindrome("mary", "work") == "mary work"
+
+def test_negative_value_with_add_function():
+	assert isPalindrome(-9, -2) == -11
